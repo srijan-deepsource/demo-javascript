@@ -68,6 +68,6 @@ let result = isFooAvailable({
 function checkYoda(){
     let yoda = true;
     if(true == yoda){
-        console.log("I am yoda")
+        console.log("I am yoda!")
     }
 }
