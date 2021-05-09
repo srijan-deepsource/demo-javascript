@@ -27,7 +27,7 @@ function area(r) {
 
 function isFooAvailable(obj){
     console.log(`Value of obj[foo]: ${obj['foo']}`)
-    return obj.hasOwnProperty('foo')
+    return obj.hasOwnProperty('fooo')
 }
 
 function findFooBar(){
