@@ -71,3 +71,13 @@ function checkYoda(){
         console.log("I am yoda")
     }
 }
+
+
+switch (foo) {
+  case 1,2:
+    doSomeThing(a);
+  case 3 || 4:
+    doSomeOtherThing(a);
+  default:
+    doTheDefaultThing(a);
+}
