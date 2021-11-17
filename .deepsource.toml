@@ -11,9 +11,16 @@ enabled = true
   dependency_file_paths = [
     'packages/demo-react/',
     'packages/demo-vue/',
+    'packages/demo-next/',
+    'packages/demo-nuxt/',
     'packages/demo-typescript/'
   ]
+  skip_doc_coverage = ['arrow-function-expression']
 
 [[transformers]]
     name = "prettier"
     enabled = true
+
+[[analyzers]]
+name = "secrets"
+enabled = true
